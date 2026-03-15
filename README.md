@@ -1,1 +1,1 @@
-# spring-boot-microservice-store
+# microservices-store
