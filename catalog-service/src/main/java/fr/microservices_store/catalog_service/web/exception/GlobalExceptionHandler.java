@@ -1,9 +1,8 @@
 package fr.microservices_store.catalog_service.web.exception;
 
+import fr.microservices_store.catalog_service.domain.ProductNotFoundException;
 import java.net.URI;
 import java.time.Instant;
-
-import fr.microservices_store.catalog_service.domain.ProductNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
 import org.springframework.web.bind.annotation.ExceptionHandler;
