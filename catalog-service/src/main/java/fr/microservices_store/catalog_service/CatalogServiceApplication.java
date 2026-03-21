@@ -9,9 +9,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 // Enable reading of the application.properties file by mapping it to a class or record.
 // You can also automatically enable all config properties with @ConfigurationPropertiesScan
 @EnableConfigurationProperties(ApplicationProperties.class)
-public class Application {
+public class CatalogServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CatalogServiceApplication.class, args);
     }
 }
